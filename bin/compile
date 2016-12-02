@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+BUILD_DIR=$1
+
+echo "-----> Deleting the client nodejs app folder..."
+rm -r "$BUILD_DIR/client"
+echo "       Done!"
